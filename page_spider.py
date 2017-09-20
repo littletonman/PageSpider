@@ -1,9 +1,11 @@
 import os
 import argparse
 
+
 def main(database: str, url_list_file: str):
-    print("We are going work with "+database)
-    print("We are going scan "+url_list_file)
+    print("We are going work with " + database)
+    print("We are going scan " + url_list_file)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
